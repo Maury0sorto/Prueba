@@ -1,6 +1,7 @@
 {
   "expo": {
-    "name": "GRUPOASTRO",
+    "jsEngine": "hermes",
+    "name": "Grupo Astro",
     "slug": "GRUPOASTRO",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +22,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mauryosorto28.GRUPOASTRO"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "11395758-e6cf-467d-a1ec-1c76a0bd3fdf"
+      }
     }
   }
 }
